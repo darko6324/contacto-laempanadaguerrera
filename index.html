@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>La Empanada Guerrera · Contacto</title>
+<meta name="description" content="Contáctanos: WhatsApp, pedidos al por mayor, redes y ubicación. Empanadas recién salidas de la freidora, no de una vitrina. Listas para el combate.">
+<meta name="theme-color" content="#1A0E05">
+<link rel="canonical" href="https://contacto.laempanadaguerrera.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="La Empanada Guerrera">
+<meta property="og:title" content="La Empanada Guerrera · Contacto">
+<meta property="og:description" content="Listas para el combate. Escríbenos por WhatsApp, síguenos o pide al por mayor.">
+<meta property="og:url" content="https://contacto.laempanadaguerrera.com/">
+<meta property="og:image" content="https://contacto.laempanadaguerrera.com/logo.png">
+<meta property="og:locale" content="es_CO">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.png">
+<link rel="apple-touch-icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bangers&family=Kanit:wght@300;500;700&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --dorado:#F7B314;
+  --espresso:#1A0E05;
+  --hueso:#F2ECD7;
+  --bronce:#AF7929;
+  --chocolate:#412B14;
+  --cuero:#65431A;
+  --chile:#D4380C;
+  --plata:#C4C9CE;
+}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html{-webkit-text-size-adjust:100%}
+body{
+  font-family:'Poppins',system-ui,-apple-system,sans-serif;
+  background:var(--espresso);
+  color:var(--espresso);
+  min-height:100vh;
+  display:flex;justify-content:center;
+}
+.page{
+  width:100%;max-width:520px;
+  background:
+    radial-gradient(circle at 50% -6%, rgba(247,179,20,.6) 0%, rgba(247,179,20,0) 52%),
+    linear-gradient(180deg,#F8F2E1 0%, var(--hueso) 38%, #E8DFC2 100%);
+  position:relative;overflow:hidden;
+  display:flex;flex-direction:column;
+}
+.page::before{
+  content:"";position:absolute;inset:0;pointer-events:none;opacity:.05;
+  background-image:
+    repeating-linear-gradient(37deg, var(--cuero) 0 2px, transparent 2px 9px),
+    repeating-linear-gradient(-37deg, var(--cuero) 0 2px, transparent 2px 9px);
+}
+.inner{position:relative;z-index:1;padding:32px 22px 0}
+
+/* ---------- HERO ---------- */
+.hero{text-align:center}
+.logo{
+  width:min(290px,74vw);height:auto;display:inline-block;
+  filter:drop-shadow(0 10px 20px rgba(26,14,5,.28));
+}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.tagline{
+  font-family:'Bangers',cursive;
+  font-size:clamp(20px,5.6vw,26px);
+  letter-spacing:2.4px;color:var(--chile);margin-top:10px;
+}
+.pill{
+  display:inline-flex;align-items:center;gap:7px;
+  margin-top:14px;padding:7px 15px;border-radius:99px;
+  background:rgba(26,14,5,.05);border:1px solid rgba(101,67,26,.28);
+  font-family:'Kanit',sans-serif;font-weight:500;font-size:10.5px;
+  letter-spacing:1.6px;text-transform:uppercase;color:var(--cuero);
+}
+.pill .dot{width:7px;height:7px;border-radius:99px;background:var(--chile);
+  box-shadow:0 0 0 0 rgba(212,56,12,.6);animation:pulse 2.2s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 8px rgba(212,56,12,0)}100%{box-shadow:0 0 0 0 rgba(212,56,12,0)}}
+
+/* ---------- SECCIONES ---------- */
+.label{
+  font-family:'Kanit',sans-serif;font-weight:500;font-size:10.5px;
+  letter-spacing:2.6px;text-transform:uppercase;color:var(--cuero);
+  display:flex;align-items:center;gap:11px;margin:30px 0 13px;
+}
+.label::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,rgba(101,67,26,.42),rgba(101,67,26,0))}
+
+/* ---------- BOTONES ---------- */
+.stack{display:flex;flex-direction:column;gap:11px}
+.btn{
+  display:flex;align-items:center;gap:14px;
+  padding:15px 17px;border-radius:15px;
+  text-decoration:none;color:var(--espresso);
+  background:rgba(255,255,255,.72);
+  border:1.5px solid rgba(101,67,26,.2);
+  box-shadow:0 2px 0 rgba(101,67,26,.13);
+  transition:transform .14s ease, box-shadow .14s ease, background .14s ease;
+}
+.btn:active{transform:translateY(2px);box-shadow:0 0 0 rgba(101,67,26,.13)}
+@media (hover:hover){.btn:hover{transform:translateY(-2px);box-shadow:0 6px 14px rgba(26,14,5,.16);background:#fff}}
+.btn .ic{flex:0 0 42px;height:42px;border-radius:12px;display:grid;place-items:center;background:var(--espresso)}
+.btn .ic svg{width:21px;height:21px;fill:var(--hueso)}
+.btn .tx{flex:1;min-width:0}
+.btn .t{display:block;font-weight:700;font-size:15.5px;line-height:1.25}
+.btn .s{display:block;font-size:12.2px;color:var(--cuero);line-height:1.35;margin-top:2px;font-weight:300}
+.btn .ar{flex:0 0 auto;opacity:.35;font-size:19px;line-height:1}
+
+.btn.primary{background:linear-gradient(180deg,#FFC42F,var(--dorado));border-color:#C98F0B;box-shadow:0 4px 0 #B47C05}
+.btn.primary:active{box-shadow:0 1px 0 #B47C05}
+@media (hover:hover){.btn.primary:hover{background:linear-gradient(180deg,#FFCE4F,#FDBB1E);box-shadow:0 7px 16px rgba(247,179,20,.5)}}
+.btn.primary .s{color:#6B4A08}
+.btn.primary .t{font-size:16.5px}
+
+.btn.b2b{background:linear-gradient(180deg,#4E3419,var(--chocolate));border-color:#2A1A08;color:var(--hueso)}
+.btn.b2b .s{color:#D6C39F}
+.btn.b2b .ic{background:var(--dorado)}
+.btn.b2b .ic svg{fill:var(--espresso)}
+.btn.b2b .ar{opacity:.5}
+
+.ic.ig{background:linear-gradient(45deg,#F09433,#E6683C 25%,#DC2743 50%,#CC2366 75%,#BC1888)}
+.ic.tt{background:#010101}
+.ic.wa{background:#25D366}
+.ic.wa svg{fill:#fff}
+
+/* ---------- DATOS ---------- */
+.card{margin-top:11px;padding:14px 17px;border-radius:15px;
+  background:rgba(255,255,255,.5);border:1.5px dashed rgba(101,67,26,.32)}
+.card .row{display:flex;justify-content:space-between;gap:12px;font-size:12.6px;padding:4px 0}
+.card .row b{font-family:'Kanit',sans-serif;font-weight:500;letter-spacing:.6px;white-space:nowrap}
+.card .row span{text-align:right}
+
+/* ---------- FOOTER ---------- */
+footer{margin-top:30px;background:var(--espresso);color:#B9A98F;
+  padding:26px 22px calc(26px + env(safe-area-inset-bottom));text-align:center;position:relative;z-index:1}
+footer .sello{font-family:'Bangers',cursive;color:var(--dorado);font-size:17px;letter-spacing:1.8px;margin-bottom:9px}
+footer p{font-size:11px;line-height:1.65;font-weight:300}
+footer a{color:#D9C9A6;text-decoration:none;border-bottom:1px solid rgba(217,201,166,.35)}
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="inner">
+
+    <header class="hero">
+      <img class="logo" src="logo.png" alt="La Empanada Guerrera" width="602" height="620">
+      <h1 class="sr">La Empanada Guerrera</h1>
+      <p class="tagline">¡Listas para el combate!</p>
+      <div class="pill"><span class="dot"></span>Recién salidas de la freidora</div>
+    </header>
+
+    <!-- ESCRÍBENOS -->
+    <div class="label">Escríbenos</div>
+    <nav class="stack">
+
+      <a class="btn primary" href="https://wa.me/573239102290?text=%C2%A1Hola%20Guerrera!%20Quiero%20hacer%20un%20pedido." target="_blank" rel="noopener">
+        <span class="ic wa" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M.06 24l1.69-6.16a11.87 11.87 0 01-1.6-5.95C.16 5.33 5.5 0 12.06 0a11.8 11.8 0 018.4 3.49 11.75 11.75 0 013.48 8.4c0 6.55-5.34 11.89-11.89 11.89a11.9 11.9 0 01-5.69-1.45L.06 24zm6.6-3.8c1.68 1 3.28 1.6 5.4 1.6 5.44 0 9.88-4.43 9.89-9.88a9.88 9.88 0 00-16.87-7 9.8 9.8 0 00-2.9 7c0 2.2.62 3.85 1.66 5.57l-1 3.65 3.82-.94zm11.4-5.1c-.07-.12-.27-.2-.56-.34-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.29-.77.96-.94 1.16-.17.2-.35.22-.64.08a8.1 8.1 0 01-2.39-1.47 9 9 0 01-1.65-2.06c-.17-.3-.02-.46.13-.6.13-.14.3-.35.44-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.2-.24-.58-.48-.5-.66-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.01-1.04 2.47s1.06 2.87 1.21 3.07c.15.2 2.1 3.2 5.08 4.48.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.11.57-.08 1.76-.72 2-1.4.25-.7.25-1.29.18-1.41z"/></svg></span>
+        <span class="tx"><span class="t">WhatsApp</span><span class="s">+57 323 910 2290 · pedidos y domicilios</span></span>
+        <span class="ar" aria-hidden="true">›</span>
+      </a>
+
+      <a class="btn b2b" href="https://wa.me/573239102290?text=Hola%2C%20quiero%20cotizar%20un%20pedido%20al%20por%20mayor%20o%20para%20evento.%20Cantidad%20aproximada%3A%20" target="_blank" rel="noopener">
+        <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 8h-3V6a3 3 0 00-3-3h-4a3 3 0 00-3 3v2H4a2 2 0 00-2 2v9a2 2 0 002 2h16a2 2 0 002-2v-9a2 2 0 00-2-2zM9 6a1 1 0 011-1h4a1 1 0 011 1v2H9V6zm11 13H4v-4.2c.6.3 1.3.4 2 .4h5v1a1 1 0 002 0v-1h5c.7 0 1.4-.1 2-.4V19zm0-6.5c0 .8-.7 1.5-1.5 1.5H13v-1a1 1 0 00-2 0v1H5.5A1.5 1.5 0 014 12.5V10h16v2.5z"/></svg></span>
+        <span class="tx"><span class="t">Pedidos al por mayor y eventos</span><span class="s">Congeladas x25, cocteleras y refrigerios. Cotiza aquí.</span></span>
+        <span class="ar" aria-hidden="true">›</span>
+      </a>
+
+      <a class="btn" href="mailto:contacto@laempanadaguerrera.com">
+        <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4.24l-7.47 4.67a1 1 0 01-1.06 0L4 8.24V6.4l8 5 8-5v1.84z"/></svg></span>
+        <span class="tx"><span class="t">Correo</span><span class="s">contacto@laempanadaguerrera.com</span></span>
+        <span class="ar" aria-hidden="true">›</span>
+      </a>
+    </nav>
+
+    <!-- REDES -->
+    <div class="label">Síguenos</div>
+    <nav class="stack">
+      <a class="btn" href="https://www.instagram.com/laempanadaguerrera/" target="_blank" rel="noopener">
+        <span class="ic ig" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.8 3.8 0 01-1.38-.9c-.42-.42-.68-.82-.9-1.38-.16-.42-.36-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16zM12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63a5.9 5.9 0 00-2.13 1.38A5.9 5.9 0 00.63 4.14c-.3.76-.5 1.64-.56 2.91C.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91a5.9 5.9 0 001.38 2.13 5.9 5.9 0 002.13 1.38c.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56a5.9 5.9 0 002.13-1.38 5.9 5.9 0 001.38-2.13c.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91a5.9 5.9 0 00-1.38-2.13A5.9 5.9 0 0019.86.63c-.76-.3-1.64-.5-2.91-.56C15.67.01 15.26 0 12 0zm0 5.84a6.16 6.16 0 100 12.32 6.16 6.16 0 000-12.32zm0 10.16a4 4 0 110-8 4 4 0 010 8zm7.85-10.4a1.44 1.44 0 11-2.88 0 1.44 1.44 0 012.88 0z"/></svg></span>
+        <span class="tx"><span class="t">Instagram</span><span class="s">@laempanadaguerrera</span></span>
+        <span class="ar" aria-hidden="true">›</span>
+      </a>
+
+      <a class="btn" href="https://www.tiktok.com/@laempanadaguerrera" target="_blank" rel="noopener">
+        <span class="ic tt" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M16.6 5.82A4.28 4.28 0 0115.54 3h-3.09v12.4a2.59 2.59 0 01-2.59 2.5 2.59 2.59 0 110-5.18c.27 0 .53.04.77.12v-3.2a5.8 5.8 0 00-.77-.05A5.79 5.79 0 004.07 15.4a5.79 5.79 0 005.79 5.78 5.79 5.79 0 005.78-5.78V9.4a7.35 7.35 0 004.29 1.37V7.7a4.28 4.28 0 01-3.33-1.88z"/></svg></span>
+        <span class="tx"><span class="t">TikTok</span><span class="s">@laempanadaguerrera</span></span>
+        <span class="ar" aria-hidden="true">›</span>
+      </a>
+
+      <a class="btn" href="https://laempanadaguerrera.com/" target="_blank" rel="noopener">
+        <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm6.93 6h-2.95a15.6 15.6 0 00-1.38-3.56A8.03 8.03 0 0118.93 8zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14a7.9 7.9 0 010-4h3.38a16.5 16.5 0 000 4H4.26zm.81 2h2.95c.32 1.25.78 2.45 1.38 3.56A7.99 7.99 0 015.07 16zm2.95-8H5.07a7.99 7.99 0 014.33-3.56A15.6 15.6 0 008.02 8zM12 19.96A13.9 13.9 0 0110.09 16h3.82A13.9 13.9 0 0112 19.96zM14.34 14H9.66a14.7 14.7 0 010-4h4.68a14.7 14.7 0 010 4zm.26 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a7.99 7.99 0 01-4.33 3.56zM16.36 14a16.5 16.5 0 000-4h3.38a7.9 7.9 0 010 4h-3.38z"/></svg></span>
+        <span class="tx"><span class="t">Sitio web</span><span class="s">laempanadaguerrera.com</span></span>
+        <span class="ar" aria-hidden="true">›</span>
+      </a>
+    </nav>
+
+    <!-- UBICACIÓN -->
+    <div class="label">Visítanos</div>
+    <nav class="stack">
+      <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Carrera%2076%20%2380B-16%2C%20Minuto%20de%20Dios%2C%20Engativ%C3%A1%2C%20Bogot%C3%A1" target="_blank" rel="noopener">
+        <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 00-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 00-7-7zm0 9.5A2.5 2.5 0 1112 6.5a2.5 2.5 0 010 5z"/></svg></span>
+        <span class="tx"><span class="t">Cra. 76 # 80B-16</span><span class="s">Minuto de Dios, Engativá · Bogotá D.C.</span></span>
+        <span class="ar" aria-hidden="true">›</span>
+      </a>
+
+      <a class="btn" id="vcard" href="#" download="La-Empanada-Guerrera.vcf">
+        <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M19 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2zm-9 3.5a2.5 2.5 0 110 5 2.5 2.5 0 010-5zM14.5 17h-9v-.75c0-1.5 3-2.32 4.5-2.32s4.5.82 4.5 2.32V17zm4-1.5h-3V14h3v1.5zm0-3h-3V11h3v1.5zm0-3h-3V8h3v1.5z"/></svg></span>
+        <span class="tx"><span class="t">Guardar contacto</span><span class="s">Añade la Guerrera a tu agenda</span></span>
+        <span class="ar" aria-hidden="true">›</span>
+      </a>
+    </nav>
+
+    <div class="card">
+      <div class="row"><b>Razón social</b><span>Inversiones Guerreras S.A.S.</span></div>
+      <div class="row"><b>NIT</b><span>902.093.111-1</span></div>
+      <div class="row"><b>Establecimiento</b><span>Empanadas La Guerrera</span></div>
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="sello">★ Listas para el combate ★</div>
+    <p>
+      Recién salidas de la freidora, no de una vitrina.<br>
+      Con nuestro ají de frutas tropicales, hecho a mano.
+    </p>
+    <p style="margin-top:12px;opacity:.72">
+      © <span id="y">2026</span> Inversiones Guerreras S.A.S. · Bogotá D.C., Colombia<br>
+      <a href="https://laempanadaguerrera.com/">laempanadaguerrera.com</a>
+    </p>
+  </footer>
+</div>
+
+<script>
+document.getElementById('y').textContent = new Date().getFullYear();
+
+/* Tarjeta de contacto descargable (vCard) */
+var vcf = [
+'BEGIN:VCARD',
+'VERSION:3.0',
+'N:;La Empanada Guerrera;;;',
+'FN:La Empanada Guerrera',
+'ORG:Inversiones Guerreras S.A.S.',
+'TITLE:Empanadas artesanales - Listas para el combate',
+'TEL;TYPE=CELL,VOICE:+573239102290',
+'EMAIL;TYPE=INTERNET,WORK:contacto@laempanadaguerrera.com',
+'URL:https://laempanadaguerrera.com/',
+'ADR;TYPE=WORK:;;Cra. 76 # 80B-16 Minuto de Dios Engativa;Bogota D.C.;;;Colombia',
+'NOTE:Instagram y TikTok: @laempanadaguerrera',
+'END:VCARD'
+].join('\r\n');
+
+document.getElementById('vcard').href =
+  URL.createObjectURL(new Blob([vcf], {type:'text/vcard;charset=utf-8'}));
+</script>
+</body>
+</html>
